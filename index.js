@@ -17,7 +17,7 @@ const __dirname = path.dirname(__filename);
 
 // Middleware
 app.use(cors({
-    origin: 'http://localhost:5174',
+    origin: 'https://employee-front-black.vercel.app',
     credentials: true
   }));
   
